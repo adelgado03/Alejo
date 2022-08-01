@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="multimedia/icon.JPG" type="image/x-icon">
+  <link rel="stylesheet" href="../estilos-css/css.css">
+  <script src="https://kit.fontawesome.com/fa55a4f8fb.js" crossorigin="anonymous"></script>
+
+  <title>florida rentals</title>
+
+</head>
+
+<body>
+
+  <header class="header">
+    <nav class="nav">
+
+      <a href="../index.html" class="logo nav-link">florida rentals</a>
+
+      <ul class="nav-menu">
+        <li class="nav-menu-item">
+          <a href="aboutus.html" class="nav-menu-link nav-link"> About us</a>
+        </li>
+        <li class="nav-menu-item">
+          <a href="visit.html" class="nav-menu-link nav-link"> Visit</a>
+        </li>
+        <li class="nav-menu-item">
+          <a href="service.html" class="nav-menu-link nav-link"> Service</a>
+        </li>
+        <li class="nav-menu-item">
+          <a href="#" class="nav-menu-link nav-link"> Contact</a>
+        </li>
+      </ul>
+
+    </nav>
+  </header>
+
+  <main class="contacto">
+
+
+    <form action="enviar.php" method="post" enctype="text/plain" netlify class="form">
+
+      <h1 class="contacto__titulo">Contact us</h1>
+
+      <div class="formm">
+
+        <label for="nombre" class="name">Name:</label>
+        <input type="text" name="nombre" required class="a1">
+
+        <label for="apellido">Last name:</label>
+        <input type="text" name="apellido" required class="a1">
+
+        <label for="mail">Email:</label>
+        <input type="email" name="mail" required class="a1">
+
+        <label for="numero" required> Phone Number:</label>
+        <input type="number" name="numero" required class="a1">
+
+      </div>
+
+      <div class="form__adentro">
+
+        <h2 class="contacto__titulo">Service</h2>
+
+        <input type="checkbox" name="servicio">
+        <label for="servicio">Basic</label>
+        <input type="checkbox" name="servicio">
+        <label for="servicio">Deluxe</label>
+        <input type="checkbox" name="servicio">
+        <label for="servicio">Double</label>
+        <input type="checkbox" name="servicio">
+        <label for="servicio">Other</label>
+
+        <label for="comentarios"></label>
+
+        <textarea name="comentarios" id="" cols="30" rows="10" placeholder="Ask your question..." class="a1"></textarea>
+
+        <input type="submit" value="SEND" class="a1">
+
+      </div>
+
+
+
+    </form>
+
+  </main>
+
+
+  <footer>
+
+    <div class="redes">
+      <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"> <i class="fa-solid fa-envelope"></i></a>
+
+
+      <a href="https://www.instagram.com/"> <i class="fa-brands fa-instagram"></i></a>
+
+
+      <a href="https://www.facebook.com/"> <i class="fa-brands fa-facebook"></i> </a>
+
+    </div>
+
+    <p class="end">created by alejo delgado</p>
+
+  </footer>
+
+
+</body>
+
+</html>
