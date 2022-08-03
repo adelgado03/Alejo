@@ -7,6 +7,8 @@
     
 }
 
+
+
 /* estilos del header */
 
 .header { 
@@ -15,6 +17,7 @@
     color: rgb(52, 56, 56);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 100px;
+    background-image: linear-gradient(to bottom,rgb(218, 234, 235), red );
     
 }
 
@@ -37,6 +40,20 @@
     font-variant: small-caps;
     margin: auto 0;
     width: max-content;
+    animation-duration: 2s;
+    animation-name: titilar;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes titilar {
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
 }
 
 
@@ -51,6 +68,13 @@
     justify-content: space-around;
     margin: auto 0;
     width: max-content;
+    
+    
+    
+}
+
+.nav-menu-item:hover {
+    transform: rotate(20deg);
 }
 
 .nav-menu-link {
@@ -58,11 +82,13 @@
     font-size: 26px;
     padding: 15px 40px;
     border-radius: 6px;
+    
 }
 
 .nav-menu-link:hover {
     background-color: #42B881;
     transition: 0.5s;
+    transform: rotate(20deg);
 }
 
 
@@ -344,6 +370,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    background-image: linear-gradient(to top,rgb(218, 234, 235), red );
 
 }
 
